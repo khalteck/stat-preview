@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik');
+
+body {
+    background-color: #0a0c1b;
+}
+.box-container {
+    width: 1050px;
+    height: 424px;
+    margin-left: -525px;
+    margin-top: -212px;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.box1 {
+    width: 50%;
+    height: 100%;
+    background-color: #1c1938;
+    border-radius: 10px 0px 0px 10px;
+    padding-left: 70px;
+    padding-right: 110px;
+    padding-bottom: -100px;
+    color: #ffffff;
+    font-family: 'Rubik';
+}
+.box2 {
+    width: 50%;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+}
+img {
+    width: 525px;
+    height: 424px;
+    border-radius: 0px 10px 10px 0px;
+    opacity: 0.5;
+}
+.lister {
+    list-style: none;
+    display: flex;
+    margin-left: -80px;
+    position: relative;
+    top: 87px;
+}
+#companies {
+    list-style: none;
+     
+}
+#templates {
+    list-style: none;
+    position: relative;
+    left: 25px;
+}
+#queries {
+    list-style: none;
+    position: relative;
+    left: 50px;
+}
+h1 {
+    font-size: 34px;
+    color: #ffffff;
+    position: relative;
+    top: 40px;
+}
+p {
+    position: relative;
+    top: 37px;
+    font-size: 15px;
+    color: #a3a2b4;
+    line-height: 21px;
+}
+.numbers {
+    font-size: 25px;
+    font-weight: bold;
+}
+.caps {
+    font-size: 13px;
+    text-align: justify;
+    position: relative;
+    top: 5px;
+    color: #a3a2b4;
+}
+.in {
+    color: #ac5ddd;
+}
+.see {
+    background-color: #9357bf;
+    width: 525px;
+    height: 424px;
+    border-radius: 0px 10px 10px 0px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -212px;
+}
