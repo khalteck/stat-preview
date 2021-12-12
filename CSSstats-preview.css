@@ -2,6 +2,8 @@
 
 body {
     background-color: #0a0c1b;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .box-container {
     width: 1050px;
